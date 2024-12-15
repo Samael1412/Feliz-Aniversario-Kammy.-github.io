@@ -106,12 +106,12 @@
         }
 
         .play-button {
-            background: url('https://raw.githubusercontent.com/Samael1412/FelizAniversarioKammy.github.io/b5cca3b694f5a6cf912b3874731993fccab9b987/Cuadro%20de%20Sonido.png') no-repeat center center;
-            background-size: contain;
-            width: 120px;
-            height: 90px;
+            background-color: #ff6b6b;
+            color: white;
+            width: 200px;
+            height: 60px;
             font-family: 'Great Vibes', cursive;
-            font-size: 0.8em;
+            font-size: 1.2em;
             border-radius: 10px;
             cursor: pointer;
             position: relative;
@@ -132,15 +132,6 @@
 
         .play-button:active {
             transform: scale(0.95);
-        }
-
-        .play-button::before {
-            content: "✨";
-            position: absolute;
-            left: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 1.7em;
         }
 
         audio {
@@ -183,7 +174,7 @@
     <p class="signature">Con amor, Sam "El mago de Fin de Siglo"</p>
 
     <div style="display: flex; justify-content: center;">
-        <button class="play-button" onclick="playPauseAudio()">Haz clic aquí <br> para la magia ✨</button>
+        <button class="play-button" onclick="playPauseAudio()">Haz clic aquí para la magia ✨</button>
     </div>
 </div>
 
@@ -205,5 +196,6 @@
 
 </body>
 </html>
+
 
 
