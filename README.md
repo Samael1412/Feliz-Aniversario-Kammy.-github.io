@@ -19,7 +19,6 @@
             position: relative;
             overflow: hidden;
         }
-
         .container {
             background: rgba(255, 255, 255, 0.8);
             padding: 40px;
@@ -30,7 +29,6 @@
             position: relative;
             margin: 0 auto;
         }
-
         h1 {
             color: #ff6b6b;
             margin: 0;
@@ -38,14 +36,12 @@
             font-family: 'Dancing Script', cursive;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         }
-
-        .date {
+  .date {
             color: #333;
             font-size: 1.5em;
             margin: 15px 0;
             font-family: 'Great Vibes', cursive;
         }
-
         .message {
             font-size: 1.3em;
             line-height: 1.8;
@@ -54,14 +50,12 @@
             text-align: justify;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
         }
-
         .signature {
             font-size: 1.7em;
             color: #ff6b6b;
             margin-top: 20px;
             font-family: 'Great Vibes', cursive;
         }
-
         .play-button {
             background-color: #ff6b6b;
             color: white;
@@ -81,12 +75,10 @@
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-
         .play-button:hover {
             transform: scale(1.1);
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
         }
-
         .play-button:active {
             transform: scale(0.95);
         }
@@ -103,7 +95,6 @@
         Feliz aniversario, mi vida.
     </p>
     <p class="signature">Con amor, Sam "El mago de Fin de Siglo"</p>
-
     <div style="display: flex; justify-content: center;">
         <button class="play-button">Haz clic aquí para la magia ✨</button>
     </div>
