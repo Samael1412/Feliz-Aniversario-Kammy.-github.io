@@ -1,4 +1,25 @@
-</head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversario, Kamyla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a3d; /* Azul noche */
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
         /* Estrellas simuladas */
         .star {
             position: absolute;
@@ -8,6 +29,7 @@
             animation: twinkle 1.5s infinite alternate;
             box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.5); /* Efecto difuso */
         }
+
         @keyframes twinkle {
             0% {
                 opacity: 0.3;
@@ -16,6 +38,7 @@
                 opacity: 1;
             }
         }
+
         .star-field {
             width: 100%;
             height: 100%;
@@ -24,17 +47,21 @@
             left: 0;
             pointer-events: none;
         }
+
         .star-field .star {
             width: 5px;
             height: 5px;
             animation-duration: 2s;
         }
- .star-field .star:nth-child(odd) {
+
+        .star-field .star:nth-child(odd) {
             animation-duration: 1.5s;
         }
- .star-field .star:nth-child(even) {
+
+        .star-field .star:nth-child(even) {
             animation-duration: 2.5s;
         }
+
         .container {
             background: rgba(255, 255, 255, 0.8);
             padding: 40px;
@@ -45,6 +72,7 @@
             position: relative;
             margin: 0 auto;
         }
+
         h1 {
             color: #ff6b6b;
             margin: 0;
@@ -52,12 +80,14 @@
             font-family: 'Dancing Script', cursive;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         }
+
         .date {
             color: #333;
             font-size: 1.5em;
             margin: 15px 0;
             font-family: 'Great Vibes', cursive;
         }
+
         .message {
             font-size: 1.3em;
             line-height: 1.8;
@@ -67,13 +97,14 @@
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
         }
 
-  .signature {
+        .signature {
             font-size: 1.7em;
             color: #ff6b6b;
             margin-top: 20px;
             font-family: 'Great Vibes', cursive;
         }
- .play-button {
+
+        .play-button {
             background: url('https://raw.githubusercontent.com/Samael1412/FelizAniversarioKammy.github.io/b5cca3b694f5a6cf912b3874731993fccab9b987/Cuadro%20de%20Sonido.png') no-repeat center center;
             background-size: contain;
             width: 120px;
@@ -92,13 +123,16 @@
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-.play-button:hover {
+
+        .play-button:hover {
             transform: scale(1.1);
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
         }
+
         .play-button:active {
             transform: scale(0.95);
         }
+
         .play-button::before {
             content: "✨";
             position: absolute;
@@ -107,9 +141,11 @@
             transform: translateY(-50%);
             font-size: 1.7em;
         }
+
         audio {
             display: none;
         }
+
         .heart-icon {
             font-size: 1.8em;
             color: #ff6b6b;
@@ -136,7 +172,7 @@
     <span class="heart-icon">❤️</span>
     <span class="heart-icon">❤️</span>
 
-    <h1>Feliz Aniversario, mi amor ❤️</h1>
+    <h1>Feliz Aniversario, mi amor</h1>
     <p class="date">14 de Diciembre del 2024</p>
     <p class="message">
         Amada mía, hoy en nuestro momento que resuena en la eternidad, quiero decirós cuánto os amo. Amo esa hermosa sonrisa vuestra, amo esos brillantes ojos estrellados que tenéis. Por muchos más momentos junto a vos, por mucho más junto a vos. Gracias por ser vos, por estar a mi lado y por hacer cada momento especial. Os amo ∞ + 1.
@@ -168,7 +204,6 @@
 
 </body>
 </html>
-
 
 
 
