@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feliz Aniversario, Kamyla</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,43 +18,6 @@
             text-align: center;
             position: relative;
             overflow: hidden;
-        }
-
-        .star {
-            position: absolute;
-            border-radius: 50%;
-            background-color: #FFD700; /* Color amarillo */
-            opacity: 0.7;
-            animation: twinkle 1.5s infinite alternate;
-            box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.5);
-        }
-
-        @keyframes twinkle {
-            0% { opacity: 0.3; }
-            100% { opacity: 1; }
-        }
-
-        .star-field {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            pointer-events: none;
-        }
-
-        .star-field .star {
-            width: 5px;
-            height: 5px;
-            animation-duration: 2s;
-        }
-
-        .star-field .star:nth-child(odd) {
-            animation-duration: 1.5s;
-        }
-
-        .star-field .star:nth-child(even) {
-            animation-duration: 2.5s;
         }
 
         .container {
@@ -77,35 +39,12 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         }
 
-        .date {
-            color: #333;
-            font-size: 1.5em;
-            margin: 15px 0;
-            font-family: 'Great Vibes', cursive;
-        }
-
-        .message {
-            font-size: 1.3em;
-            line-height: 1.8;
-            margin: 20px 0;
-            font-family: 'Arial', sans-serif;
-            text-align: justify;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-        }
-
-        .signature {
-            font-size: 1.7em;
-            color: #ff6b6b;
-            margin-top: 20px;
-            font-family: 'Great Vibes', cursive;
-        }
-
         .play-button {
             background-color: #ff6b6b;
             color: white;
             width: 200px;
             height: 60px;
-            font-family: 'Great Vibes', cursive;
+            font-family: 'Arial', sans-serif;
             font-size: 1.2em;
             border-radius: 10px;
             cursor: pointer;
@@ -128,68 +67,19 @@
         .play-button:active {
             transform: scale(0.95);
         }
-
-        audio {
-            display: none;
-        }
-
-        .heart-icon {
-            font-size: 1.8em;
-            color: #ff6b6b;
-            margin: 0 10px;
-        }
     </style>
 </head>
 <body>
 
-<div class="star-field">
-    <div class="star" style="top: 5%; left: 15%;"></div>
-    <div class="star" style="top: 10%; left: 30%;"></div>
-</div>
-
-<audio id="audio" loop>
-    <source src="https://raw.githubusercontent.com/Samael1412/FelizAniversarioKammy.github.io/b5cca3b694f5a6cf912b3874731993fccab9b987/Stromae%2C%20Pomme%20-%20Ma%20Meilleure%20Ennemie%20l%20(Arcane%20Season%202%20looped.mp3" type="audio/mp3">
-    Tu navegador no soporta el formato de audio.
-</audio>
-
 <div class="container">
-    <span class="heart-icon">❤️</span>
-    <span class="heart-icon">❤️</span>
-    <span class="heart-icon">❤️</span>
-    <span class="heart-icon">❤️</span>
-
-    <h1>Feliz Aniversario, mi amor</h1>
-    <p class="date">14 de Diciembre del 2024</p>
-    <p class="message">
-        Amada mía, hoy en nuestro momento que resuena en la eternidad, quiero decirós cuánto os amo. Amo esa hermosa sonrisa vuestra, amo esos brillantes ojos estrellados que tenéis. Por muchos más momentos junto a vos, por mucho más junto a vos. Gracias por ser vos, por estar a mi lado y por hacer cada momento especial. Os amo ∞ + 1.
-        <br><br>
-        Feliz aniversario, mi vida.
-    </p>
-    <p class="signature">Con amor, Sam "El mago de Fin de Siglo"</p>
+    <h1>Feliz Aniversario, Kamyla</h1>
 
     <div style="display: flex; justify-content: center;">
-        <button class="play-button" onclick="playPauseAudio()">Haz clic aquí para la magia ✨</button>
+        <button class="play-button">Haz clic aquí para la magia ✨</button>
     </div>
 </div>
 
-<script>
-    var isPlaying = false;
-
-    function playPauseAudio() {
-        var audio = document.getElementById('audio');
-        
-        if (isPlaying) {
-            audio.pause();
-            isPlaying = false;
-        } else {
-            audio.play();
-            isPlaying = true;
-        }
-    }
-</script>
-
 </body>
 </html>
-
 
 
