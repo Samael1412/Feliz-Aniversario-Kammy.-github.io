@@ -39,6 +39,29 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         }
 
+        .date {
+            color: #333;
+            font-size: 1.5em;
+            margin: 15px 0;
+            font-family: 'Great Vibes', cursive;
+        }
+
+        .message {
+            font-size: 1.3em;
+            line-height: 1.8;
+            margin: 20px 0;
+            font-family: 'Arial', sans-serif;
+            text-align: justify;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+        }
+
+        .signature {
+            font-size: 1.7em;
+            color: #ff6b6b;
+            margin-top: 20px;
+            font-family: 'Great Vibes', cursive;
+        }
+
         .play-button {
             background-color: #ff6b6b;
             color: white;
@@ -72,7 +95,14 @@
 <body>
 
 <div class="container">
-    <h1>Feliz Aniversario, Kamyla</h1>
+    <h1>Feliz Aniversario, mi amorcito ❤️</h1>
+    <p class="date">14 de Diciembre del 2024</p>
+    <p class="message">
+        Amada mía, hoy en nuestro momento que resuena en la eternidad, quiero decirós cuánto os amo. Amo esa hermosa sonrisa vuestra, amo esos brillantes ojos estrellados que tenéis. Por muchos más momentos junto a vos, por mucho más junto a vos. Gracias por ser vos, por estar a mi lado y por hacer cada momento especial. Os amo ∞ + 1.
+        <br><br>
+        Feliz aniversario, mi vida.
+    </p>
+    <p class="signature">Con amor, Sam "El mago de Fin de Siglo"</p>
 
     <div style="display: flex; justify-content: center;">
         <button class="play-button">Haz clic aquí para la magia ✨</button>
@@ -81,5 +111,6 @@
 
 </body>
 </html>
+
 
 
