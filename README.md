@@ -21,23 +21,18 @@
             overflow: hidden;
         }
 
-        /* Estrellas simuladas */
         .star {
             position: absolute;
             border-radius: 50%;
             background-color: #FFD700; /* Color amarillo */
             opacity: 0.7;
             animation: twinkle 1.5s infinite alternate;
-            box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.5); /* Efecto difuso */
+            box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.5);
         }
 
         @keyframes twinkle {
-            0% {
-                opacity: 0.3;
-            }
-            100% {
-                opacity: 1;
-            }
+            0% { opacity: 0.3; }
+            100% { opacity: 1; }
         }
 
         .star-field {
@@ -150,7 +145,6 @@
 <div class="star-field">
     <div class="star" style="top: 5%; left: 15%;"></div>
     <div class="star" style="top: 10%; left: 30%;"></div>
-    <!-- ... otras estrellas ... -->
 </div>
 
 <audio id="audio" loop>
