@@ -106,7 +106,7 @@
         }
 
         .play-button {
-            background: url('https://raw.githubusercontent.com/Samael1412/Samael1412.github.io/main/Cuadro%20de%20Sonido.png') no-repeat center center;
+            background: url('https://raw.githubusercontent.com/Samael1412/FelizAniversarioKammy.github.io/b5cca3b694f5a6cf912b3874731993fccab9b987/Cuadro%20de%20Sonido.png') no-repeat center center;
             background-size: contain;
             width: 120px;
             height: 90px;
@@ -163,7 +163,7 @@
 </div>
 
 <audio id="audio" loop>
-    <source src="https://raw.githubusercontent.com/Samael1412/Samael1412.github.io/main/Stromae%2C%20Pomme%20-%20Ma%20Meilleure%20Ennemie%20l%20(Arcane%20Season%202%20looped.mp3" type="audio/mp3">
+    <source src="https://raw.githubusercontent.com/Samael1412/FelizAniversarioKammy.github.io/b5cca3b694f5a6cf912b3874731993fccab9b987/Stromae%2C%20Pomme%20-%20Ma%20Meilleure%20Ennemie%20l%20(Arcane%20Season%202%20looped.mp3" type="audio/mp3">
     Tu navegador no soporta el formato de audio.
 </audio>
 
@@ -205,4 +205,5 @@
 
 </body>
 </html>
+
 
