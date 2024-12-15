@@ -31,6 +31,7 @@
             box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.5); /* Efecto difuso */
         }
 
+        /* Animación de parpadeo para las estrellas */
         @keyframes twinkle {
             0% {
                 opacity: 0.3;
@@ -40,6 +41,7 @@
             }
         }
 
+        /* Efecto de estrellas: puntos amarillos dispersos por toda la página */
         .star-field {
             width: 100%;
             height: 100%;
@@ -50,8 +52,8 @@
         }
 
         .star-field .star {
-            width: 5px;
-            height: 5px;
+            width: 4px;
+            height: 4px;
             animation-duration: 2s;
         }
 
@@ -65,64 +67,60 @@
 
         .container {
             background: rgba(255, 255, 255, 0.8);
-            padding: 40px;
-            border-radius: 12px;
+            padding: 30px;
+            border-radius: 10px;
             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-            max-width: 550px;
+            max-width: 500px;
             width: 90%;
             position: relative;
-            margin: 0 auto;
         }
 
         h1 {
             color: #ff6b6b;
             margin: 0;
-            font-size: 3em;
+            font-size: 2.5em;
             font-family: 'Dancing Script', cursive;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         }
 
         .date {
             color: #333;
-            font-size: 1.5em;
-            margin: 15px 0;
-            font-family: 'Great Vibes', cursive;
+            font-size: 1.2em;
+            margin: 10px 0 20px;
         }
 
         .message {
-            font-size: 1.3em;
-            line-height: 1.8;
+            font-size: 1.2em;
+            line-height: 1.6;
             margin: 20px 0;
-            font-family: 'Arial', sans-serif;
-            text-align: justify;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
         }
 
         .signature {
-            font-size: 1.7em;
+            font-size: 1.5em;
             color: #ff6b6b;
             margin-top: 20px;
-            font-family: 'Great Vibes', cursive;
         }
 
+        /* Estilo para el botón con la imagen de pergamino ajustado */
         .play-button {
-            background: url('file:///E:/Users/OMAR/Downloads/Cuadro%20de%20Sonido.png') no-repeat center center;
-            background-size: contain;
-            width: 120px;
-            height: 90px;
+            background: url('https://raw.githubusercontent.com/Samael1412/Samael1412.github.io/main/tu-imagen.png') no-repeat center center;
+            background-size: contain;  /* La imagen se ajustará sin perder calidad */
+            width: 100px;  /* Ancho reducido del botón */
+            height: 75px;  /* Alto del botón ajustado */
+            color: #6A1B9A;  /* Color morado oscuro para mejor contraste */
             font-family: 'Great Vibes', cursive;
-            font-size: 0.8em;
+            font-size: 0.7em;  /* Tamaño del texto ajustado */
             border-radius: 10px;
             cursor: pointer;
             position: relative;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: center;  /* Centra verticalmente el texto */
+            justify-content: center;  /* Centra horizontalmente el texto */
             text-align: center;
             margin-top: 20px;
             border: none;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            word-wrap: break-word;  /* Para que el texto se ajuste en dos líneas */
+            line-height: 1.3;  /* Ajusta la altura de línea para mejorar la legibilidad */
         }
 
         .play-button:hover {
@@ -140,15 +138,17 @@
             left: 10px;
             top: 50%;
             transform: translateY(-50%);
-            font-size: 1.7em;
+            font-size: 1.5em; /* Tamaño de la estrella ajustado */
         }
 
+        /* Estilo del audio oculto */
         audio {
             display: none;
         }
 
+        /* Corazones decorativos */
         .heart-icon {
-            font-size: 1.8em;
+            font-size: 1.5em;
             color: #ff6b6b;
             margin: 0 10px;
         }
@@ -156,52 +156,50 @@
 </head>
 <body>
 
+<!-- Campo de estrellas -->
 <div class="star-field">
+    <!-- Estrellas generadas aleatoriamente con mayor densidad -->
     <div class="star" style="top: 5%; left: 15%;"></div>
     <div class="star" style="top: 10%; left: 30%;"></div>
-    <!-- ... otras estrellas ... -->
+    <div class="star" style="top: 15%; left: 60%;"></div>
+    <div class="star" style="top: 20%; left: 80%;"></div>
+    <div class="star" style="top: 25%; left: 40%;"></div>
+    <div class="star" style="top: 50%; left: 70%;"></div>
+    <div class="star" style="top: 60%; left: 20%;"></div>
+    <div class="star" style="top: 80%; left: 90%;"></div>
+    <div class="star" style="top: 90%; left: 50%;"></div>
 </div>
 
-<audio id="audio" loop>
-    <source src="[file:Stromae,%20Pomme%20-%20Ma%20Meilleure%20Ennemie%20l%20(Arcane%20Season%202%20looped.mp3](https://github.com/Samael1412/Samael1412.github.io/blob/main/README.md?plain=1)" type="audio/mp3">
-    Tu navegador no soporta el formato de audio.
-</audio>
-
+<!-- Contenedor central -->
 <div class="container">
-    <span class="heart-icon">❤️</span>
-    <span class="heart-icon">❤️</span>
-    <span class="heart-icon">❤️</span>
-    <span class="heart-icon">❤️</span>
-
-    <h1>Feliz Aniversario, mi amor</h1>
-    <p class="date">14 de Diciembre del 2024</p>
+    <h1>Feliz Aniversario, Kamyla</h1>
+    <p class="date">14 de Noviembre de 2024</p>
     <p class="message">
-        Amada mía, hoy en nuestro momento que resuena en la eternidad, quiero decirós cuánto os amo. Amo esa hermosa sonrisa vuestra, amo esos brillantes ojos estrellados que tenéis. Por muchos más momentos junto a vos, por mucho más junto a vos. Gracias por ser vos, por estar a mi lado y por hacer cada momento especial. Os amo ∞ + 1.
-        <br><br>
-        Feliz aniversario, mi vida.
+        Mi querida Kamyla, te deseo un maravilloso y brillante aniversario.
+        Que nuestra historia de amor continúe creciendo con cada día.
     </p>
-    <p class="signature">Con amor, Sam "El mago de Fin de Siglo"</p>
+    <div class="signature">Con todo mi amor, Samael</div>
 
-    <div style="display: flex; justify-content: center;">
-        <button class="play-button" onclick="playPauseAudio()">Haz clic aquí <br> para la magia ✨</button>
-    </div>
+    <audio id="audio" loop>
+        <source src="https://raw.githubusercontent.com/Samael1412/Samael1412.github.io/main/tu-archivo-de-musica.mp3" type="audio/mp3">
+        Tu navegador no soporta el formato de audio.
+    </audio>
+
+    <button class="play-button" onclick="playPauseAudio()">Haz clic aquí <br> para la magia ✨</button>
 </div>
 
 <script>
-    var isPlaying = false;
+    var audio = document.getElementById('audio');
 
     function playPauseAudio() {
-        var audio = document.getElementById('audio');
-        
-        if (isPlaying) {
-            audio.pause();
-            isPlaying = false;
-        } else {
+        if (audio.paused) {
             audio.play();
-            isPlaying = true;
+        } else {
+            audio.pause();
         }
     }
 </script>
 
 </body>
 </html>
+
