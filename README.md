@@ -102,7 +102,7 @@
 
         /* Estilo para el botón con la imagen de pergamino ajustado */
         .play-button {
-            background: url('https://raw.githubusercontent.com/Samael1412/Samael1412.github.io/main/tu-imagen.png') no-repeat center center;
+            background: url('https://raw.githubusercontent.com/Samael1412/Samael1412.github.io/main/Cuadro%20de%20Sonido.png') no-repeat center center;
             background-size: contain;  /* La imagen se ajustará sin perder calidad */
             width: 100px;  /* Ancho reducido del botón */
             height: 75px;  /* Alto del botón ajustado */
@@ -181,7 +181,7 @@
     <div class="signature">Con todo mi amor, Samael</div>
 
     <audio id="audio" loop>
-        <source src="[https://raw.githubusercontent.com/Samael1412/Samael1412.github.io/main/tu-archivo-de-musica.mp3](https://github.com/Samael1412/Samael1412.github.io/blob/main/Stromae%2C%20Pomme%20-%20Ma%20Meilleure%20Ennemie%20l%20(Arcane%20Season%202%20looped.mp3)" type="audio/mp3">
+        <source src="https://raw.githubusercontent.com/Samael1412/Samael1412.github.io/main/Stromae%2C%20Pomme%20-%20Ma%20Meilleure%20Ennemie%20l%20(Arcane%20Season%202%20looped.mp3" type="audio/mp3">
         Tu navegador no soporta el formato de audio.
     </audio>
 
